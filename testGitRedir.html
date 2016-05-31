@@ -45,6 +45,7 @@ limitations under the License.
           // [END createprovider]
           // [START addscopes]
           provider.addScope('repo');
+          provider.addScope('gist');
           // [END addscopes]
           // [START signin]
           firebase.auth().signInWithRedirect(provider);
