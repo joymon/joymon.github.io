@@ -150,8 +150,11 @@ limitations under the License.
         // [END authstatelistener]
 
         document.getElementById('quickstart-sign-in').addEventListener('click', toggleSignIn, false);
+        document.getElementById('addGistBtn').addEventListener('click', addGistBtn_Click, false);
       }
-
+      function addGistBtn_Click(){
+        alert('Clicked. implement later');
+      }
       window.onload = function() {
         
         initApp();
@@ -195,6 +198,7 @@ limitations under the License.
             </div>
           </div>
         </div>
+        <button id="addGistBtn" class="mdl-button mdl-js-button">Add test gist</button>
       </main>
     </div>
   </body>
