@@ -9,6 +9,7 @@ function displayGistCount(){
 
 function addGist(){
   if(firebase.auth().currentUser){
+    alert("Token is " + document.getElementById('quickstart-oauthtoken').textContent);
     alert(firebase.auth().currentUser);
   }
   else{
