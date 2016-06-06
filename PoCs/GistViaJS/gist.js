@@ -8,5 +8,10 @@ function displayGistCount(){
 }
 
 function addGist(){
-  alert('not implemented');
+  if(firebase.auth().currentUser){
+    alert(firebase.auth().currentUser);
+  }
+  else{
+    alert("firebase.auth().currentUser is not set");
+  }
 }
