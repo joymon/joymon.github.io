@@ -1,5 +1,5 @@
 function displayGistCount(){
-  var github = new GitHub({} ); 3
+  var github = new GitHub({} );
   var repo = github.getRepo( "joymon", "joymon" );
   var gist= github.getGist();
  gist.read(function(err,gis,xmlH){
@@ -7,7 +7,7 @@ function displayGistCount(){
  });
 }
 
-function addGist(){
+function addHardcodedGist(){
   var token=document.getElementById('quickstart-oauthtoken').textContent;
   if(firebase.auth().currentUser && token){
     addHardcodedGistToLoggedInUser(token);
@@ -17,6 +17,9 @@ function addGist(){
   else{
     alert("firebase.auth().currentUser is not set");
   }
+}
+function addGist(){
+  alert ("not implemented");
 }
 function addHardcodedGistToLoggedInUser(authToken) {
   var github = new GitHub({token:authToken});
