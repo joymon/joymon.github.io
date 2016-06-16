@@ -29,6 +29,7 @@ limitations under the License.
     <!--<script src="https://www.gstatic.com/firebasejs/3.0.3/firebase.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://cdn.firebase.com/libs/angularfire/2.0.0/angularfire.min.js"></script>
+    <script src='ngFireReDir.js'
     <link rel="stylesheet" href="main.css">
 
     <!-- Firebase -->
@@ -40,7 +41,7 @@ limitations under the License.
     <script type="text/javascript" src='gist.js'></script>
     <script type="text/javascript" src="https://npmcdn.com/github-api@2.2.0/dist/GitHub.bundle.min.js"></script>
   </head>
-  <body>
+  <body ng-app='ngFireApp'>
     <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <!-- Header section containing title -->
       <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
@@ -58,6 +59,7 @@ limitations under the License.
               <h2 class="mdl-card__title-text">GitHub Authentication with Redirect using ngFire</h2>
             </div>
             <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+              2+2{{2+2}}
               <p>Sign in with your GitHub account below.</p>
 
               <!-- Button that handles sign-in/sign-out -->
