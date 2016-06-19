@@ -1,6 +1,6 @@
 var app=angular.module('ngFireApp',['firebase']);
-app.controller('ngFireReDirController', ['$scope', '$firebase','$firebaseAuth','$firebaseObject'
-                                function($scope,$firebase,$firebaseAuth,$firebaseObject ) {
+app.controller('ngFireReDirController',['$scope', '$firebase','$firebaseAuth','$firebaseObject',
+                                function($scope, $firebase, $firebaseAuth, $firebaseObject ) {
   $scope.Test = "Testing success";
   $scope.init=function(){
     //var ref = new Firebase('project-5197086768869881638.firebaseapp.com');
