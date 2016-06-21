@@ -1,3 +1,11 @@
+var config = {
+          apiKey: "AIzaSyB3SIjtC6URYZgrh4MJLJn2FzWU2RosyD8",
+          authDomain: "project-5197086768869881638.firebaseapp.com",
+          databaseURL: "https://project-5197086768869881638.firebaseio.com",
+          storageBucket: "project-5197086768869881638.appspot.com",
+        };
+        firebase.initializeApp(config);
+        
 var app=angular.module('ngFireApp',['firebase']);
 app.controller('ngFireReDirController',['$scope', '$firebase','$firebaseAuth','$firebaseObject',
                                 function($scope, $firebase, $firebaseAuth, $firebaseObject ) {
