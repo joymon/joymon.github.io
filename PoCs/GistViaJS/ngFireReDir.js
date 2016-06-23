@@ -21,4 +21,7 @@ app.controller('ngFireReDirController',['$scope', '$firebase','$firebaseAuth','$
       console.log("Authentication failed:", error);
     });
   };
+  $scope.initTraditional=function(){
+  };
+  
 }]);
