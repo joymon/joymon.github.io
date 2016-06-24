@@ -21,6 +21,7 @@ app.controller('ngFireReDirController',['$scope', '$firebase','$firebaseAuth','$
       console.log("Authentication failed:", error);
     });
   };
+  //function which logs in without using ngFire.Sync with angular differently
   $scope.initTraditional=function(){
   };
   
