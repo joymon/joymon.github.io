@@ -12,7 +12,7 @@ app.controller('ngFireReDirController',['$scope', '$firebase','$firebaseAuth','$
   $scope.Test = "Testing success";
   $scope.init=function(){
     //var ref = new Firebase('project-5197086768869881638.firebaseapp.com');
-     // create an instance of the authentication service
+    
     var auth = $firebaseAuth(firebase);
   
     auth.$authWithOAuthPopup("github").then(function(authData) {
