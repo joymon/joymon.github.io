@@ -1,0 +1,7 @@
+- http://dojotoolkit.org/api/?qs=1.7/dojox/io/windowName
+- http://ha.ckers.org/xss.html
+- http://seclab.stanford.edu/websec/frames/post-message.pdf
+- http://html5security.org/
+- https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet
+- https://media.blackhat.com/bh-eu-12/shah/bh-eu-12-Shah_HTML5_Top_10-WP.pdf
+- https://code.google.com/archive/p/browsersec/wikis/Main.wiki
