@@ -1,0 +1,9 @@
+<h1>Feed - UI {{name}}</h1>
+{{url}}
+Entries {{entries.length}}
+<div *ngFor="let f of entries">
+  <h3>{{f.title}}</h3>
+  <h4>{{f.publishedDate}}</h4>
+  <div>{{f.contentSnippet}}</div> 
+  <div>{{f.link}}</div>
+</div> 
