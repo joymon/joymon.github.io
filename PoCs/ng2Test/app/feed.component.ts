@@ -24,7 +24,6 @@ export class FeedComponent {
                       let res =data.json().responseData;
                       console.log(res.feed.entries.length);   
                       this.entries =res.feed.entries;
-                      debugger;
                     }
     );
   }
