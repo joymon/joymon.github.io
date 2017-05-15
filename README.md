@@ -1,3 +1,3 @@
-### Angular Documentation Example 
+### Public site for testing 
 
-QuickStart
+Place for testing HTML app quickly from public endpoint
