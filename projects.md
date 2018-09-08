@@ -1,0 +1,7 @@
+| Project Name  | Build         | Tests | Code coverage  | Vulnerabilities | Open Issues |
+| ------------- |:-------------:| -----:| -----:| -----:|-----:|
+| JoymonOnline.in  | [![Build status](https://ci.appveyor.com/api/projects/status/5mycvjhhmw36r6pl?svg=true)](https://ci.appveyor.com/project/joymon/demo-aspnetintergationtest) | | | [![Known Vulnerabilities](https://snyk.io/test/github/joymon/JoymonOnline.In/badge.svg)](https://snyk.io/test/github/joymon/JoymonOnline.In)
+| Karel      | [![Build status](https://ci.appveyor.com/api/projects/status/67a0muy15ymjnj5n?svg=true)](https://ci.appveyor.com/project/joymon/karel-web) |    |
+| PrayerBook | [![Build Status](https://travis-ci.org/joymon/PrayerBook.svg)](https://travis-ci.org/joymon/PrayerBook)      |     | [![Known Vulnerabilities](https://snyk.io/test/github/joymon/PrayerBook/badge.svg?targetFile=package.json)](https://snyk.io/test/github/joymon/PrayerBook?targetFile=package.json) |
+| Orchestration | [![Build status](https://ci.appveyor.com/api/projects/status/6qx7d8dpnx8o5d4n?svg=true)](https://ci.appveyor.com/project/joymon/orchestration)
+| DotNet.Helpers | [![Build status](https://ci.appveyor.com/api/projects/status/ry2o7n3as7j0axp8?svg=true)](https://ci.appveyor.com/project/joymon/dotnet-helpers) | [![Test](https://img.shields.io/appveyor/tests/joymon/dotnet-helpers.svg)](https://ci.appveyor.com/project/joymon/dotnet-helpers) | [![codecov](https://codecov.io/gh/joymon/dotnet-helpers/branch/master/graph/badge.svg)](https://codecov.io/gh/joymon/dotnet-helpers) |
