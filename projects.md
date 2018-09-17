@@ -1,5 +1,5 @@
 | Project Name  | Build         | Tests | Code coverage  | Vulnerabilities | Open Issues | Tech |
-| ------------- |:-------------:| -----:| -----:| -----:|-----:|:-----:|
+| ------------- |:-------------:| -----:| -----:| -----:|-----:|:-----|
 | JoymonOnline.in  | [![Build status](https://ci.appveyor.com/api/projects/status/5mycvjhhmw36r6pl?svg=true)](https://ci.appveyor.com/project/joymon/demo-aspnetintergationtest) | | | [![Known Vulnerabilities](https://snyk.io/test/github/joymon/JoymonOnline.In/badge.svg)](https://snyk.io/test/github/joymon/JoymonOnline.In) | | ng@1.6.1,TS@3.0,Webpack@4.7 |
 | Karel      | [![Build status](https://ci.appveyor.com/api/projects/status/67a0muy15ymjnj5n?svg=true)](https://ci.appveyor.com/project/joymon/karel-web) |    | | [![Known Vulnerabilities](https://snyk.io/test/github/KarelRobot/karel-web/badge.svg?targetFile=package.json)](https://snyk.io/test/github/KarelRobot/karel-web?targetFile=package.json) | | jQ@3.2.1,TS@3.0,Webpack@4.7 |
 | PrayerBook | [![Build Status](https://travis-ci.org/joymon/PrayerBook.svg)](https://travis-ci.org/joymon/PrayerBook)  |  |     | [![Known Vulnerabilities](https://snyk.io/test/github/joymon/PrayerBook/badge.svg?targetFile=package.json)](https://snyk.io/test/github/joymon/PrayerBook?targetFile=package.json) | | ng@1.3 |
