@@ -12,7 +12,12 @@
 
 <!-- tablesorter widgets (optional) -->
 <script type="text/javascript" src="https://mottie.github.io/tablesorter/js/jquery.tablesorter.widgets.js"></script>
-</head>
+<script type="text/javascript" >
+        $(function() {
+                $("#myTable").tablesorter();
+        });
+</script>
+        </head>
 <body>
 <table id="myTable" class="tablesorter">
   <thead>
